@@ -33,7 +33,6 @@ namespace LeagueSharp.Loader.Class
 
     internal static class Auth
     {
-        public const string AuthServer = "loader.joduska.me";
         public static bool Authed { get; set; }
 
         public static Tuple<bool, string> Login(string user, string hash)
